@@ -1,0 +1,132 @@
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    background-color: #fff;
+}
+
+header{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 677px;
+    background: #2D25A0;
+}
+ .container{
+     display: flex;
+     justify-content: space-between;
+ }
+ .main-box{
+
+     color: #fff;
+     margin-left: 156px;
+     margin-top: 206px;
+
+     
+      
+ }
+ .box-1{
+    width: 485px;
+    height: 230px;
+     
+ }
+ .box-2{
+    width: 168px;
+    height: 44px;
+    background: #E02C6D;
+    color: #fff;
+    
+   
+}
+.box-2 p{
+    padding: 10px 24px;
+}
+.box-2 p:hover{
+    color: blue;
+    
+}
+.thumbnail img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 153px;
+    margin-right: 140.99px;
+    margin-bottom: 86px;
+    
+}
+
+    
+
+/*
+---------------- 2nd section------------------- */
+.article{
+    margin-left: 50px;
+    margin-bottom: 165px;
+    
+}
+
+
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 45px;
+    
+}
+
+.player{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    width: 330px;
+    height: 474px;
+    margin-top: 70px;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+    margin: 15px;
+    
+}
+.player-daitel{
+    margin:15px;
+    color: #18191F;
+}
+.player-daitel p{
+    color:#6C6C6C;
+}
+/*-------- article end--------- */
+.last-box img{
+    width: 80%;
+    margin-left: 120px;
+    margin-bottom: 158px;
+}
+.last-box img:hover{
+    transform: scale(1.2);rotate: (20deg);
+}
+/* -------article end ----------------*/
+.logo{
+    width: 483.87px;
+    height: 110px;
+}
+.awesome-icon fab fa {
+    display: flex;
+    justify-content: center;
+    
+}
+.copyright p {
+    text-align: center;
+    line-height: 165px;
+}
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    
+
+    .players, .lower-part {
+        
+      grid-template-columns: repeat(1, 1fr);
+       
+     }
+     .player, .last-box{
+         /* flex-direction: column; */
+     }
+}
